@@ -12,7 +12,7 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: url(fondito2.jpg);
+  background: url(/img/fondito2.jpg);
   background-attachment: fixed, scroll; 
 }
 
