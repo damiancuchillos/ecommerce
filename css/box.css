@@ -1,0 +1,40 @@
+.box {
+    width: 400px;
+    height: 45px;
+    display: flex;
+
+    font-size: 40px;
+    line-height: 40px;
+
+ 
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+    overflow: hidden 
+}
+    
+p {
+    color:blue;
+}
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+    animation: semaforo 6s infinite;
+}
+
+ul, p {
+    margin: 0;
+}
+
+@keyframes semaforo {
+    0% {margin-top: 0px;}
+    20% {margin-top: 0px;}
+    25% {margin-top: -40px;}
+    45% {margin-top: -40px;}
+    50% {margin-top: -80px;}
+    70% {margin-top: -80px;}
+    75% {margin-top: -40px;}
+    100% {margin-top: -40px;}
+}

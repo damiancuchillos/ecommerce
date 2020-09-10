@@ -1,0 +1,68 @@
+.slider2 {
+    width: 98%;
+    height: 1230px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.slider2 ul{
+    width: 400%;
+    height: 1080px;
+    display: flex;
+    list-style: none;
+    order: 1;
+    transition: all 0.9s;
+}
+
+input[type="radio"]{
+    display: none;
+
+}
+
+input[type="radio"]+ label {
+    display: block;
+    width: 25%;
+    height: 150px;
+    cursor: pointer;
+    order: 2;
+    border: 5px solid white;
+}
+
+#sbutton1 + label{
+    background-image: url(leopardo.jpg);
+    background-size: 100% 100%;
+}
+
+#sbutton2 + label{
+    background-image: url(Calle.jpg);
+    background-size: 100% 100%;
+}
+
+#sbutton3 + label{
+    background-image: url(mundo.jpg);
+    background-size: 100% 100%;
+}
+
+#sbutton4 + label{
+    background-image: url(agua.jpg);
+    background-size: 100% 100%;
+}
+
+#sbutton1:checked ~ ul {
+    margin-left: 0;
+}
+
+#sbutton2:checked ~ ul {
+    margin-left: -100%;
+}
+
+#sbutton3:checked ~ ul {
+    margin-left: -200%;
+}
+
+#sbutton4:checked ~ ul {
+    margin-left: -300%;
+}
